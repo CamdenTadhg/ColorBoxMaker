@@ -1,7 +1,6 @@
 import react, {useState} from "react";
-import './BoxList.css';
-import NewBoxForm from './NewBoxForm.jsx';
-import Box from './Box.jsx';
+import NewBoxForm from './NewBoxForm.js';
+import Box from './Box.js';
 import {v4 as uuid} from 'uuid';
 
 const BoxList = () => {
@@ -22,7 +21,6 @@ const BoxList = () => {
         const newBoxList = boxList.filter((box) => box.id !== id);
         setBoxList(newBoxList);
     }
-
     return (
         <div className="BoxList">
             <NewBoxForm addBox={addBox}/>
