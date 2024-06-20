@@ -7,6 +7,7 @@ exports[`should match snapshot 1`] = `
   >
     <form
       class="NewBoxForm"
+      data-testid="newBoxForm"
     >
       <label
         class="NewBoxForm-label"
@@ -53,28 +54,34 @@ exports[`should match snapshot 1`] = `
     </form>
     <div
       class="Box"
+      data-testid="blueviolet1821"
       style="background-color: blueviolet; width: 18vw; height: 21vh;"
     />
     <button
       class="Box-button"
+      data-testid="blueviolet1821button"
     >
       X
     </button>
     <div
       class="Box"
+      data-testid="darkmagenta1717"
       style="background-color: darkmagenta; width: 17vw; height: 17vh;"
     />
     <button
       class="Box-button"
+      data-testid="darkmagenta1717button"
     >
       X
     </button>
     <div
       class="Box"
+      data-testid="darkorchid2823"
       style="background-color: darkorchid; width: 28vw; height: 23vh;"
     />
     <button
       class="Box-button"
+      data-testid="darkorchid2823button"
     >
       X
     </button>

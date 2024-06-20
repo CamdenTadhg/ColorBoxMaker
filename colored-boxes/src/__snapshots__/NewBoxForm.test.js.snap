@@ -4,6 +4,7 @@ exports[`should match snapshot 1`] = `
 <DocumentFragment>
   <form
     class="NewBoxForm"
+    data-testid="newBoxForm"
   >
     <label
       class="NewBoxForm-label"

@@ -11,6 +11,3 @@ it('should match snapshot', function() {
     expect(asFragment()).toMatchSnapshot();
 });
 
-it('should create a new box based on form data', function(){
-
-});

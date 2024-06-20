@@ -10,7 +10,3 @@ it('should match snapshot', function(){
     const {asFragment} = render(<BoxList/>);
     expect(asFragment()).toMatchSnapshot();
 });
-
-it('should delete the clicked box', function(){
-
-});

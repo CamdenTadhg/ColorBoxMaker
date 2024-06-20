@@ -24,7 +24,7 @@ const NewBoxForm = ({addBox}) => {
     };
 
     return (
-        <form className="NewBoxForm" onSubmit={handleSubmit}>
+        <form className="NewBoxForm" onSubmit={handleSubmit} data-testid='newBoxForm'>
             <label className="NewBoxForm-label" htmlFor="color">Color:
                 <input type="text" id="color" name="color" placeholder="color" value={formData.color} onChange={handleChange}/>
             </label>

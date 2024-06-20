@@ -1,4 +1,4 @@
-import react, { useState } from 'react'
+import react from 'react'
 import './App.css'
 import BoxList from './BoxList.js'
 
